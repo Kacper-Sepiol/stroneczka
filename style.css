@@ -1,0 +1,184 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 1600px;
+  height: 80px;
+  border-bottom: 0.5px solid #ececec;
+}
+
+.info-header {
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 227px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.email-tel {
+  font-size: 14px;
+  color: #757575;
+  font-weight: 500;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.email-tel:not(:last-child) {
+  padding-right: 50px;
+}
+
+.email-tel:hover {
+  color: #2196f3;
+}
+
+.apk-wybory {
+  padding-left: 93px;
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 500px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.15;
+  display: inline-flex;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.link:not(:last-child) {
+  padding-right: 46px;
+}
+
+.link:hover {
+  color: #2196f3;
+}
+
+.button-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.button {
+  font-size: 16px;
+  background-color: white;
+  border: 1px white;
+  color: black;
+  width: 121px;
+  height: 38px;
+  border-radius: 4px;
+  font-weight: 500px;
+  line-height: 1.6;
+  cursor: pointer;
+  background-color: #f5f4fa;
+}
+
+.button:hover {
+  background-color: #2196f3;
+  color: white;
+}
+
+.logo {
+  color: black;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-left: 215px;
+}
+
+.logo:hover {
+  color: #2196f3;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.list-images {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.picture {
+  margin-right: 30px;
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
+}
+
+.frame {
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 1600px;
+  height: 1880px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+main {
+  padding-top: 94px;
+  width: 1176px;
+  height: 1360px;
+  margin: 0 auto;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+figcaption {
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 2;
+  color: black;
+}
+
+.two-title-picture {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #757575;
+}
+
+footer {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+  margin-top: 94px;
+}
+
+.bottom-logo {
+  padding-top: 60px;
+}
+
+.bottom-email-tel {
+  padding-left: 215px;
+  line-height: 1.72;
+}
+
+address {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.72;
+  color: white;
+  padding-left: 215px;
+}
